@@ -1,0 +1,23 @@
+.timer {
+    display: grid;
+    grid-auto-flow: row;
+    align-items: center;
+    justify-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+    width: 100%;
+}
+
+.timer > p {
+    text-align: center;
+    text-transform: uppercase;
+}

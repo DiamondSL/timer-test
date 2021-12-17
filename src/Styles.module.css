@@ -1,0 +1,14 @@
+div > h1, h2 {
+    color: white;
+}
+
+.backgroundDiv{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+    max-width: 100vw;
+    background-color: rgb(31, 30, 30);
+}
